@@ -1,0 +1,109 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  
+}
+#nav{
+  height: 30vh;
+  width: 100vw;
+ 
+  background-color: coral;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: ease-out 
+}
+#nav>h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 900;
+ 
+    font-family: "Kaushan Script", cursive;
+   
+    font-style: normal;
+  
+  
+}
+
+#main{
+ position: absolute;
+ top:20%;
+ left :10%;
+
+  height: 60%;
+  width:39%;
+  /* background-color: greenyellow; */
+
+}
+#main>#head{
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  top: 5%;
+  left: 0%;
+  font-family: "Rouge Script", cursive;
+  
+  font-style: normal;
+}
+#main>#info{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: relative;
+  top: 12%;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+#main>#btn{
+  display: flex;
+  position: relative;
+  top: 30%;
+  left: 0%;
+  font-size: 20px;
+  background-color: orangered;
+  border-radius: 3px;
+  border: 2px solid black;
+  cursor: pointer;
+
+  
+}
+#pic{
+  position: absolute;
+ top:32%;
+right:3%;
+/* background-color: palevioletred; */
+  height: 60%;
+  width:29%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+#pic>#pic1{
+  height:100%;
+  width:20%;
+  position: absolute;
+  /* background-color: yellow; */
+}
+#pic>#pic1>#image1{
+height: 40%;
+width: 50%;
+
+
+}
+
+@keyframes example {
+  from {background-color:  blueviolet;}
+  to{background-color: coral;}
+}
